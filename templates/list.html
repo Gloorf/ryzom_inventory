@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block title %} {{_('Inventory')}}{% endblock %}
+{% block content %}
+{% for item in manager.get_items() %}
+<a href=""><img src="{{ manager.item_url(item) }}" alt="{{ manager.tooltip(item) }}" title="{{ manager.tooltip(item) }}" /></a>
+{% endfor %}
+{% endblock %}
+

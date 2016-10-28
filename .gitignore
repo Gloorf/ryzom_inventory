@@ -1,0 +1,42 @@
+*~
+*.py[cod]
+*.swp
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# distutils
+MANIFEST
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.pot
+
+# cache
+cache/*.xml
+# Log
+*.log
+# truc
+public_inventoryenv

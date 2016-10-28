@@ -1,0 +1,92 @@
+# French translations for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-10-28 15:31+0200\n"
+"PO-Revision-Date: 2016-10-28 15:31+0200\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: inventory_filters.py:18
+msgid "Display everything"
+msgstr "Tout afficher"
+
+#: inventory_filters.py:22
+msgid "All materials"
+msgstr "Toutes les MP"
+
+#: inventory_filters.py:26
+msgid "Materials to level-up craft"
+msgstr "MP pour pex le craft"
+
+#: inventory_filters.py:30
+msgid "Excess Supreme materials"
+msgstr "MP suprême en quantité (>50)"
+
+#: inventory_filters.py:34
+msgid "Harvested Supreme materials"
+msgstr "Suprême de forage"
+
+#: inventory_filters.py:38
+msgid "Zun sup !!"
+msgstr "Zun sup !!"
+
+#: inventory_filters.py:48
+msgid "Supreme HA harvested armor materials"
+msgstr "MP armures suprême de forage"
+
+#: templates/index.html:2
+msgid "List of inventory"
+msgstr "Liste des inventaires"
+
+#: templates/index.html:5
+msgid "Paste your Guild APIKey here."
+msgstr "Copiez votre APIkey de guilde ici."
+
+#: templates/index.html:5
+msgid "You can get one "
+msgstr "Vous pouvez en avoir une "
+
+#: templates/index.html:5
+msgid "Here."
+msgstr "Ici."
+
+#: templates/index.html:6
+msgid "You will need a key with permissions G03 (inventory)."
+msgstr "Vous aurez besoin d'une clé avec les permissions G03(inventaire)."
+
+#: templates/index.html:7
+msgid "You can input between one and 5 keys."
+msgstr "Vous pouvez rentrer entre une et 5 clés"
+
+#: templates/index.html:12
+msgid "Guild number"
+msgstr "Guilde numéro"
+
+#: templates/index.html:14
+msgid "Choose the filter to apply on your guild inventory"
+msgstr "Choisissez le filtre à appliquer à votre inventaire de guilde"
+
+#: templates/index.html:21
+msgid "Submit"
+msgstr "Valider"
+
+#: templates/layout.html:10
+msgid "Back to index"
+msgstr "Retour à l'index"
+
+#: templates/list.html:2
+msgid "Inventory"
+msgstr "Inventaire"
