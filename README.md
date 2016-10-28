@@ -8,6 +8,8 @@ pip install flask flask_babel ryzomapi phpserialize
 # Quick start
 
 Update data/allowed_characters.json, data/allowed_guilds.json with the name of players / guilds allowed (both are optionals, you don't need to put a player name in allowed_characters.json if his guild is already in allowed_guilds.json)
+
+
 Update guilds.json with your APIKey
 ```
 python3 main.py
