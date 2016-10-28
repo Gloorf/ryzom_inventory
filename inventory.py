@@ -30,6 +30,10 @@ _ = lambda x: x
 MAX_APIKEY = 5
 
 
+class InvalidPermissionException(Exception):
+    pass
+
+
 class Manager:
     def __init__(self, sort_items):
         self._translator = Translator('en')
@@ -49,6 +53,8 @@ class Manager:
             return found.gid
         else:
             tmp = load_data(key, self._sort_items)
+            if not hasattr(tmp, 'room'):
+                raise InvalidPermissionException
             tmp.api_key = key
             self._guilds.append(tmp)
             return tmp.gid
@@ -166,11 +172,10 @@ def list():
                 gid = m.add_guild(str(apikey))
                 guilds_id.append(gid)
         except InvalidAPIKeyException:
-            return redirect(url_for('.error', error_type='invalid_key'))
-    try:
-        m.refresh_guilds()
-    except AttributeError:
-        return redirect(url_for('.error', error_type='invalid_permission'))
+                return redirect(url_for('.error', error_type='invalid_key'))
+        except InvalidPermissionException:
+            return redirect(url_for('.error', error_type='invalid_permission'))
+    m.refresh_guilds()
     m.set_current_guilds(guilds_id)
     m.set_filter(int(filter))
     return render_template('list.html', manager=m)

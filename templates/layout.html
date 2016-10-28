@@ -7,7 +7,7 @@
     </head>
     <body>
         <div id="content">
-            <a href="/">{{_('Back to index')}}</a><br />
+            <a href="{{url_for('inventory.index')}}">{{_('Back to index')}}</a><br />
         {% block content %}{% endblock %}
         </div>
     </body>

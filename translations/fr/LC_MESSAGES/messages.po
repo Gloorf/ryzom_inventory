@@ -7,8 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-10-28 15:31+0200\n"
-"PO-Revision-Date: 2016-10-28 15:31+0200\n"
+"POT-Creation-Date: 2016-10-28 16:02+0200\n"
+"PO-Revision-Date: 2016-10-28 16:02+0200\n"
+"Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -16,36 +17,59 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Last-Translator: \n"
 "X-Generator: Poedit 1.8.11\n"
 
-#: inventory_filters.py:18
+#: inventory_filters.py:34
 msgid "Display everything"
 msgstr "Tout afficher"
 
-#: inventory_filters.py:22
+#: inventory_filters.py:38
 msgid "All materials"
 msgstr "Toutes les MP"
 
-#: inventory_filters.py:26
+#: inventory_filters.py:42
 msgid "Materials to level-up craft"
 msgstr "MP pour pex le craft"
 
-#: inventory_filters.py:30
+#: inventory_filters.py:46
 msgid "Excess Supreme materials"
 msgstr "MP suprême en quantité (>50)"
 
-#: inventory_filters.py:34
+#: inventory_filters.py:50
 msgid "Harvested Supreme materials"
 msgstr "Suprême de forage"
 
-#: inventory_filters.py:38
+#: inventory_filters.py:54
 msgid "Zun sup !!"
 msgstr "Zun sup !!"
 
-#: inventory_filters.py:48
+#: inventory_filters.py:64
 msgid "Supreme HA harvested armor materials"
 msgstr "MP armures suprême de forage"
+
+#: templates/error_invalid_key.html:2 templates/error_invalid_permission.html:2
+msgid "Error"
+msgstr "Erreur"
+
+#: templates/error_invalid_key.html:5
+msgid "Your API Key isn't valid. Please check it and"
+msgstr "Votre clé API n'est pas valide. Merci de la vérifier et de"
+
+#: templates/error_invalid_key.html:5 templates/error_invalid_permission.html:5
+msgid "click here"
+msgstr "cliquer ici"
+
+#: templates/error_invalid_key.html:5 templates/error_invalid_permission.html:5
+msgid "to come back"
+msgstr "pour revenir"
+
+#: templates/error_invalid_permission.html:5
+msgid ""
+"Your API key permission aren't good. Please create a new one with the "
+"correct permission and "
+msgstr ""
+"Les permissions de votre clé API ne sont pas bonnes. Merci d'en recréer une "
+"avec les bonnes permissions et "
 
 #: templates/index.html:2
 msgid "List of inventory"
