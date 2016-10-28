@@ -26,7 +26,7 @@ from lib import Authentificator, required_roles
 # Configure app
 app = Flask(__name__)
 babel = Babel(app)
-app.config.update(LANGUAGES=['en', 'fr'])
+app.config.update(LANGUAGES=['en', 'fr', 'de'])
 
 # app.register_blueprint(public_inventory, url_prefix='/public_inventory')
 app.register_blueprint(inventory, url_prefix='/inventory')
