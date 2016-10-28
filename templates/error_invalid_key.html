@@ -1,8 +1,0 @@
-{% extends "layout.html" %}
-{% block title %} {{_('Error')}}{% endblock %}
-{% block content %}
-
-<p> {{ _('Your API Key isn\'t valid. Please check it and')}} <a href="{{ url_for('inventory.index') }}">{{ _('click here')}}</a> {{ _('to come back')}}</p>
-
-
-{% endblock %}

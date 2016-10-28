@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %} {{_('List of inventory')}}{% endblock %}
+{% block content %}
+<ul>
+{% for guild in manager.guilds() %}
+    {% for i,f in manager.filters() %}
+    <li><a href="{{ url_for('.list_inventory', guild=guild.gid, filter=i)}}"> {{ '{} - {}'.format( _(guild.name),  _(f.description()) ) }}</a></li>
+    {% endfor %}
+    <br />
+{% endfor %}
+</ul>
+{% endblock %}

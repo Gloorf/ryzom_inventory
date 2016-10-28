@@ -1,24 +1,21 @@
 {% extends "layout.html" %}
-{% block title %} {{_('List of inventory')}}{% endblock %}
+{% block title %} {{_('Index')}}{% endblock %}
 {% block content %}
-
-<p> {{_('Paste your Guild APIKey here.')}} {{_('You can get one ')}}<a href="http://app.ryzom.com/app_ryzomapi/">{{_('Here.') }}</a><br />
-    {{ _('You will need a key with permissions G03 (inventory).')}}<br />
-    {{ _("You can input between one and 5 keys.")}}
-    </p>
- 
-    <form action="{{url_for('inventory.list', _external=True)}}" method="post">
-    {% for i in range(MAX_APIKEY) %}
-        {{'{} {} :'.format(_('Guild number'), i) }}<input name="{{'api_key{}'.format(i)}}" type="text" /> <br />
+<br /> <br />
+<ul>
+    <li> <a href="{{ url_for('inventory.index') }}"> {{ _('Inventory of the guild')}}</a></li>
+</ul>
+<br /> {{ _('List of guilds with access to the app :')}}
+<ul>
+    {% for g in app.auth.guilds() %}
+    <li> {{ g }} </li>
     {% endfor %}
-    {{_('Choose the filter to apply on your guild inventory') }}<br />
-    <select name="filter">
-    {% for i,f in manager.filters() %}
-        <option value="{{i}}">{{_(f.description())}}</option>
+</ul>
+<br /> {{ _('List of players with access to the app :')}}
+<ul>
+    {% for g in app.auth.players() %}
+    <li> {{ g }} </li>
     {% endfor %}
-    </select>
-    <br />
-    <input type="submit" value="{{_('Submit')}}" />
-</form>
+</ul>
 
 {% endblock %}

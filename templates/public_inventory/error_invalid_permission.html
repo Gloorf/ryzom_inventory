@@ -1,0 +1,8 @@
+{% extends "layout_public.html" %}
+{% block title %} {{_('Error')}}{% endblock %}
+{% block content %}
+
+<p> {{ _('Your API key permission aren\'t good. Please create a new one with the correct permission and ')}} <a href="{{ url_for('public_inventory.index') }}">{{ _('click here')}}</a> {{ _('to come back')}}</p>
+
+
+{% endblock %}

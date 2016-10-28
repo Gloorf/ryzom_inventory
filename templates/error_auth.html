@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block title %} {{_('Error - GlorfApp')}}{% endblock %}
+{% block content %}
+<br /> <br />
+{{ _('You are here because your authentification failed. There are several reasons for that :') }}
+<ul>
+    <li> {{ _('You are using an old client (pre-v3) ; use out of game browser or update your client')}}</li>
+    <li> {{ _('You were correctly authentificated, but your session expired. Please go back to web IG index, and click on the Fyros App link.') }}<a href="http://app.ryzom.com">{{_('Back to web IG index')}}</a></li>
+    <li> {{ _('You are not allowed to use the app ; please leave.') }}</li>
+</ul>
+{% endblock %}
