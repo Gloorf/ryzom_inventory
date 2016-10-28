@@ -20,149 +20,157 @@ msgstr ""
 
 #: inventory.py:78
 msgid "All guilds"
-msgstr ""
+msgstr "Alle Gilden"
 
 #: inventory.py:96 inventory.py:98
 msgid "{} - {}"
-msgstr ""
+msgstr "{} - {}"
 
 #: inventory_filters.py:34
 msgid "Display everything"
-msgstr ""
+msgstr "Alles anzeigen"
 
 #: inventory_filters.py:38
 msgid "All materials"
-msgstr ""
+msgstr "Alle Materialien"
 
 #: inventory_filters.py:42
 msgid "Materials to level-up craft"
-msgstr ""
+msgstr "Materialien um Herstellen zu trainiren"
 
 #: inventory_filters.py:46
 msgid "Excess Supreme materials"
-msgstr ""
+msgstr "Überflüssige Erhabene Materialien"
 
 #: inventory_filters.py:50
 msgid "Harvested Supreme materials"
-msgstr ""
+msgstr "Gebuddelte Erhabene Materialen"
 
 #: inventory_filters.py:54
 msgid "Zun sup !!"
-msgstr ""
+msgstr "Erhabenes Zun !!"
 
 #: inventory_filters.py:64
 msgid "Supreme HA harvested armor materials"
-msgstr ""
+msgstr "Erhabene Schwere Rüstung gebuddelte Materialien"
 
 #: templates/error_auth.html:2
 #: templates/public_inventory/error_invalid_key.html:2
 #: templates/public_inventory/error_invalid_permission.html:2
 msgid "Error"
-msgstr ""
+msgstr "Fehler"
 
 #: templates/error_auth.html:5
 msgid ""
 "You are here because your authentification failed. There are several "
 "reasons for that :"
 msgstr ""
+"Du bist hier weil deine Authentifizierung fehlgeschlagen ist. Es "
+"gibt mehrere Gründe dafür:"
 
 #: templates/error_auth.html:7
 msgid ""
 "You are using an old client (pre-v3) ; use out of game browser or update "
 "your client"
 msgstr ""
+"Du benutzt einen alten Client (vor-v3) ; Benutze Browser ausserhalb des "
+"Spiels oder aktualisiere deinen Client"
 
 #: templates/error_auth.html:8
 msgid ""
 "You were correctly authentificated, but your session expired. Please go "
 "back to web IG index, and click on the Fyros App link."
 msgstr ""
+"Du wurdest korrekt authentifiziert, aber deine Sitzung ist abgelaufen. "
+"Gehe bitte zurück zum Web IG Index und klick auf den Link \"Fyros App\"."
 
 #: templates/error_auth.html:8
 msgid "Back to web IG index"
-msgstr ""
+msgstr "Zurück zum Web IG Index"
 
 #: templates/error_auth.html:9
 msgid "You are not allowed to use the app ; please leave."
-msgstr ""
+msgstr "Dir ist nicht erlaubt die app zu benutzen; bitte verlassen"
 
 #: templates/index.html:2
 msgid "Index"
-msgstr ""
+msgstr "Index"
 
 #: templates/index.html:6
 msgid "Inventory of the guild"
-msgstr ""
+msgstr "Inventar der Gilde"
 
 #: templates/index.html:8
 msgid "List of guilds with access to the app :"
-msgstr ""
+msgstr "Liste der Gilden mit Zugang zur App:"
 
 #: templates/index.html:14
 msgid "List of players with access to the app :"
-msgstr ""
+msgstr "Liste der Spieler mit Zugang zur App:"
 
 #: templates/layout.html:10 templates/layout_public.html:10
 msgid "Back to index"
-msgstr ""
+msgstr "Zurück zum Index"
 
 #: templates/inventory/index.html:2 templates/public_inventory/index.html:2
 msgid "List of inventory"
-msgstr ""
+msgstr "Liste des Inventars"
 
 #: templates/public_inventory/error_invalid_key.html:5
 msgid "Your API Key isn't valid. Please check it and"
-msgstr ""
+msgstr "Dein API Schlüssel ist ungültig. Bitte überprüfe ihn und"
 
 #: templates/public_inventory/error_invalid_key.html:5
 #: templates/public_inventory/error_invalid_permission.html:5
 msgid "click here"
-msgstr ""
+msgstr "klick hier"
 
 #: templates/public_inventory/error_invalid_key.html:5
 #: templates/public_inventory/error_invalid_permission.html:5
 msgid "to come back"
-msgstr ""
+msgstr "um zurückzukommen"
 
 #: templates/public_inventory/error_invalid_permission.html:5
 msgid ""
 "Your API key permission aren't good. Please create a new one with the "
 "correct permission and "
 msgstr ""
+"Deine API Schlüssel Berechtigungen sind nicht gut. Bitte erstelle "
+"einen mit den korrekten Berechtigungen und "
 
 #: templates/public_inventory/index.html:5
 msgid "Paste your Guild APIKey here."
-msgstr ""
+msgstr "Füge deinen Gilden API Schlüssel hier ein."
 
 #: templates/public_inventory/index.html:5
 msgid "You can get one "
-msgstr ""
+msgstr "Du kannst einen bekommen "
 
 #: templates/public_inventory/index.html:5
 msgid "Here."
-msgstr ""
+msgstr "Hier."
 
 #: templates/public_inventory/index.html:6
 msgid "You will need a key with permissions G03 (inventory)."
-msgstr ""
+msgstr "Du brauchst einen Schlüssel mit Erlaubnis G03 (Inventar)."
 
 #: templates/public_inventory/index.html:7
 msgid "You can input between one and 5 keys."
-msgstr ""
+msgstr "Du kannst zwischen einem und 5 Schlüssel eingeben."
 
 #: templates/public_inventory/index.html:12
 msgid "Guild number"
-msgstr ""
+msgstr "Gilden Nummer"
 
 #: templates/public_inventory/index.html:14
 msgid "Choose the filter to apply on your guild inventory"
-msgstr ""
+msgstr "Wähle den Filter um ihn auf den Gilden Inventar anzuwenden"
 
 #: templates/public_inventory/index.html:21
 msgid "Submit"
-msgstr ""
+msgstr "Bestätigen"
 
 #: templates/public_inventory/list.html:2
 msgid "Public Inventory"
-msgstr ""
+msgstr "Öffentlicher Inventar"
 
