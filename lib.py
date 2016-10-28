@@ -32,9 +32,9 @@ class Translator:
     def __init__(self, lang='en'):
         self.lang = lang
         self.translations = {}
-        for lang in ('en', 'fr'):
+        for lang in ('de', 'en', 'fr'):
             self.translations[lang] = {}
-            with open("data/words/item_words_{}.txt".format(lang), "r") as f:
+            with open("data/words/item_words_{}.txt".format(lang), "r", encoding="utf-16") as f:
                 for line in f:
                     hash, id, name, hunk = tuple(line.split("\t", 3))
                     self.translations[lang][id] = name

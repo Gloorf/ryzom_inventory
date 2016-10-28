@@ -36,15 +36,22 @@ app.auth = Authentificator()
 
 @babel.localeselector
 def get_locale():
-    if request.args.get('lang'):
+    if request.args.get('lang', None):
         return request.args.get('lang')
+    if request.form.get('lang', None):
+        return request.form['lang']
     if request.headers.get('Accept-Language'):
         langs = request.headers.get('Accept-Language').split(',')
         if len(langs) > 0 and 'fr' in langs[0]:
-            return 'fr'
+            if 'fr' in langs[0]:
+                return 'fr'
+            if 'de' in langs[0]:
+                return 'de'
+            if 'en' in langs[0]:
+                return 'en'
         else:
             return 'en'
-    return 'fr'
+    return 'en'
 
 
 @app.route('/')
